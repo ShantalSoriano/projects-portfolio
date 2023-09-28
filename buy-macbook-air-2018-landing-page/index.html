@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Buy Macbook 2018!</title>
+    </head>
+    <body>
+        <div id="apple-logo">
+        <img width="100" height="100" src="https://img.icons8.com/ios-filled/150/mac-os.png" alt="mac-os"/>
+        <form action="./submitted.html" method="post">
+            <h5>Apple cares about you.</h5>
+            <p>We bring this <b>new product</b> just for you, cause 
+            <i>we care</i>.
+            </p>
+        </div>
+        <div id="login">
+                <h4>Login</h4>
+                <label for="em">Email:</label>
+                <input type="text" id="em" name="em-pass" placeholder="example_123@apple.com"><br /><br />
+                <label for="pass" id="pass">Password:</label>
+                <input type="text" id="pass" name="em-pass" placeholder="***********">
+            <br /> <br /> <br />
+        </div>
+        <div id="image">
+            <img src="./macbook-2018.jpg" alt="Macbook Air 2018" width="355">
+        </div>
+        <div id="description">
+            <br /> <h1>New MacBook Air 2018</h1>
+            Estas son las <i>Caracteristicas</i> del nuevo <b>MacBook Air 2018</b> mas destacadas:<br />
+                <ul>
+                    <li>13,3 pulgadas de pantalla;</li><br/>
+                    <li>Pantalla retina con 4 millones de pixeles y 48% mas de color;</li><br />
+                    <li>Camara frontal, Facetima HD;</li><br />
+                    <li>Chip Apple T2;</li><br />
+                    <li>CPU Intel Core i5 8va Generacion;</li><br />
+                </ul>
+        </div>
+        <h1>Buy yours now!</h1>
+        <div id="model">
+            <label for="models"><b>What type of MacBook Air 2018 do you want?</b></label>
+            <br />
+            <br />
+            <select id="models" name="models">
+                <option value="macbook1">MacBook Air Pro Max 22.5"</option> 
+                <option value="macbook2">MacBook Air 15.5"</option>
+                <option value="macbook3">MacBook Air Pro 20"</option>
+                <option value="macbook4">MacBook Air 13.3"</option>
+            </select>
+        </div>
+        <br />
+        <br />
+        <div id="color-selection">
+            <label for="color"><b>Choose your favorite color!</b></label>
+        <br />
+            <input type="text" list="colors" id="color" name="color">
+            <datalist id="colors">
+                <option value="Gold Pink"></option>
+                <option value="Silver"></option>
+                <option value="Black"></option>
+                <option value="Black Silver"></option>
+                <option value="Aqua"></option>
+            </datalist>
+        </div>
+        <br />
+        <div id="products">
+            <label for="products"><b>How manys do you want?</b></label>
+            <br />
+            <br />
+            <input type="number" id="products" name="products">
+        </div> 
+        <br />
+        <div id="accesories">
+            <h4>Do you like to add some accesories to?</h4>
+            <label for="pink-case">Pink Case</label>
+            <input type="checkbox" id="pink-case" name="accesories" value="pink-case">
+            <label for="stickers">Apple Stickers</label>
+            <input type="checkbox" id="stickers" name="accesories" value="stickers">
+        </div>
+        <br />
+        <br />
+        <div id="addresses">
+            <label for="address"><b>Give us your address for delivery right up to you!</b></label>
+            <br />
+            <br />
+            <textarea id="address" name="address" rows="4" cols="30" placeholder="Ave. 123th 4567-890 Marx-Anthon..."></textarea>
+        </div>
+        <br />
+        <br />
+        <div id="contract">
+            <span><b>Do you accept</b> <a href="./terms-and-conditions.html" target="_blank">Terms and Conditions</a> 
+                <b>to buy this product?</b></span>
+        <br />
+        <br />
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="contract" value="yes">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="contract" value="no">
+        </div>
+        <br />
+        <div id="footer">
+            <label for="rating"><b>How much do you like and will recommend this company?</b></label><br />
+                <span>I don't like it</span>
+            <input type="range" id="rating" name="rating" min="0" max="10" step="1">
+                <span>I love it!</span>
+        </div>
+        <br />
+        <br />
+        <div id="submission">
+            <input type="submit" value="Buy Now!">
+        </form>
+        </div>
+    </body>
+</html>
